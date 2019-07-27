@@ -1,0 +1,141 @@
+<resources>
+    <string name="app_name">Apparule</string>
+    <string name="intro_words">vfkvfk kmsckmksdcd fsfmskmskdmsfvm wkfksfkf f,fsoffsfsj sjssdsisd,ddsofjnnjv
+    fsosfkofskfofsoofskfslfsksmjgkso0fls
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="sign_up_here"><u>Sign Up here</u></string>
+    <string name="sign_in_here"><u>Sign In here</u></string>
+
+
+    <array name="images_categories">
+        <item>@drawable/selfie06</item>
+        <item>@drawable/selfie07</item>
+        <item>@drawable/men2</item>
+        <item>@drawable/kid</item>
+        <item>@drawable/accessories</item>
+        <item>@drawable/men_accessories</item>
+        <item>@drawable/kids_accessories</item>
+        <item>@drawable/wedding_dress</item>
+        <item>@drawable/frabrics</item>
+    </array>
+
+    <string-array name="categories">
+        <item>Featured</item>
+        <item>Women</item>
+        <item>Men</item>
+        <item>Kids</item>
+        <item>Women Accessories</item>
+        <item>Men Accessories</item>
+        <item>Kids Accessories</item>
+        <item>Wedding</item>
+        <item>Fabric</item>
+    </string-array>
+
+    <string-array name="men_categories">
+        <item>Senator</item>
+        <item>Agbada</item>
+        <item>Buba and Kaftan</item>
+        <item>Danshiki</item>
+        <item>Shirts</item>
+        <item>Shorts</item>
+        <item>Tees</item>
+        <item>Sets and Couples</item>
+        <item>From Abroad</item>
+    </string-array>
+
+
+    <string-array name="women_categories">
+        <item>Dresses</item>
+        <item>skirts</item>
+        <item>Tops</item>
+        <item>Pants</item>
+        <item>Jumpsuits</item>
+        <item>Shorts</item>
+        <item>Tees</item>
+        <item>Maternity</item>
+        <item>Sets and Couples</item>
+        <item>From Abroad</item>
+    </string-array>
+
+
+    <array name="images">
+        <item>@drawable/product02</item>
+        <item>@drawable/selfie06</item>
+        <item>@drawable/product01</item>
+        <item>@drawable/men2</item>
+        <item>@drawable/product00</item>
+        <item>@drawable/selfie08</item>
+        <item>@drawable/men10</item>
+        <item>@drawable/men12</item>
+        <item>@drawable/product03</item>
+        <item>@drawable/selfie05</item>
+        <item>@drawable/selfie07</item>
+        <item>@drawable/product04</item>
+        <item>@drawable/selfie09</item>
+        <item>@drawable/product05</item>
+        <item>@drawable/men1</item>
+        <item>@drawable/men11</item>
+    </array>
+
+
+    <array name="women_images">
+        <item>@drawable/product02</item>
+        <item>@drawable/selfie06</item>
+        <item>@drawable/product01</item>
+        <item>@drawable/product00</item>
+        <item>@drawable/selfie08</item>
+        <item>@drawable/product03</item>
+        <item>@drawable/selfie05</item>
+        <item>@drawable/selfie07</item>
+        <item>@drawable/product04</item>
+        <item>@drawable/selfie09</item>
+        <item>@drawable/product05</item>
+    </array>
+
+    <array name="kids_accessories">
+        <item>@drawable/kidacc2</item>
+        <item>@drawable/kidacc4</item>
+    </array>
+
+    <array name="men">
+        <item>@drawable/men2</item>
+        <item>@drawable/men1</item>
+        <item>@drawable/men6</item>
+        <item>@drawable/men4</item>
+        <item>@drawable/men11</item>
+        <item>@drawable/men10</item>
+        <item>@drawable/men12</item>
+        <item>@drawable/men8</item>
+    </array>
+
+    <array name="frabric">
+        <item>@drawable/frabic1</item>
+        <item>@drawable/frabic2</item>
+        <item>@drawable/frabic3</item>
+        <item>@drawable/frabic4</item>
+        <item>@drawable/frabic5</item>
+        <item>@drawable/frabic6</item>
+        <item>@drawable/frabic7</item>
+    </array>
+    <array name="men_accesories">
+        <item>@drawable/watch1</item>
+        <item>@drawable/menaccesories</item>
+    </array>
+    <string name="title_activity_dash_board">DashBoardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Nikita Couture</string>
+    <string name="nav_header_subtitle">nkitia.couture@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_catalogue">CatalogueActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

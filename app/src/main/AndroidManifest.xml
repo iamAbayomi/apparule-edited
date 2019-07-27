@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="io.cuesoft.apparule">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <meta-data
+        android:name="firebase_crashlytics_collection_enabled"
+        android:value="false" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <activity android:name=".views.LandingActivity">
+
+        </activity>
+
+        <activity
+            android:name=".views.customer.MainActivity"
+            android:label="@string/title_activity_main" />
+
+        <activity android:name=".views.SignInActivity" />
+        <activity android:name=".views.customer.CustomerSignUpActivity" />
+        <activity android:name=".views.designer.DesignerSignUpActivity" />
+        <activity android:name=".views.customer.DiscoveryActivity" />
+        <activity android:name=".views.customer.NotificationsActivity" />
+        <activity android:name=".views.customer.ProfileActivity" />
+        <activity android:name=".views.customer.PostActivity" />
+
+        <activity android:name=".views.WalkThroughActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name=".views.customer.SettingsActivity"
+            android:label="Settings"
+            android:parentActivityName=".views.customer.ProfileActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".views.customer.ProfileActivity" />
+        </activity>
+
+        <activity
+            android:name=".views.designer.DesignerBaseActivity"
+            android:theme="@style/DesignerAppTheme" />
+
+        <activity
+            android:name=".views.designer.DashBoardActivity"
+            android:label="Request" >
+
+
+
+        </activity>
+
+        <activity
+            android:name=".views.designer.CatalogueActivity"
+            android:label="Catalogue"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".views.designer.DesignerProfileActivity"
+            android:label="Profile" />
+        <activity
+            android:name=".views.designer.DesignerSettingsActivity"
+            android:label="Settings" />
+        <activity
+            android:name=".views.designer.AddCatalogueActivity"
+            android:label="Add Item" />
+        <activity
+            android:name=".views.designer.EditCatalogueActivity"
+            android:label="Edit Item" />
+        <activity android:name=".views.designer.EditDesignerProfileActivity" />
+
+        <activity
+            android:name=".views.designer.Main2Activity"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/AppTheme" />
+
+        <activity android:name=".views.customer.CartActivity" />
+        <activity android:name=".views.customer.SearchActivity">
+        </activity>
+    </application>
+
+</manifest>
